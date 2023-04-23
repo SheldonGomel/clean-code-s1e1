@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header .header__link {
   font-family: fantasy, cursive;
 }
@@ -28,29 +31,35 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .todo__add-task-block {
   display: flex;
 }
+
 .todo__tasks-list {
   margin: 0;
   padding: 0px;
 }
+
 .task-item,
 .todo__elem-name {
   list-style: none;
 }
+
 .task-input,
-.delete-btn, 
+.delete-btn,
 #add-button {
   outline: none;
 }
+
 .delete-btn,
-.edit-btn, 
+.edit-btn,
 #add-button {
   background: none;
   border: 0px;
@@ -60,11 +69,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.delete-btn:hover, 
-.edit-btn:hover, 
+
+.delete-btn:hover,
+.edit-btn:hover,
 #add-button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .todo__elem-name,
 .add-label {
@@ -76,6 +87,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -89,18 +101,22 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
+
 /* New Task */
 
-.add-label{
+.add-label {
   display: block;
   margin: 0 0 20px;
 }
+
 #todo__add-task {
   width: 318px;
 }
+
 /* Task list */
 .task-item {
   overflow: hidden;
@@ -111,42 +127,52 @@
   justify-content: space-between;
   align-items: center;
 }
-.task-item > * {
+
+.task-item>* {
   vertical-align: middle;
 }
+
 .task-checkbox {
   margin: 0 10px;
 }
+
 .task-lable {
   padding: 0 9px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-input {
   width: 226px
 }
+
 .btn-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn-img:hover {
   transform: rotateZ(0);
 }
+
 /* Completed */
 #todo__completed-tasks .task-lable {
   text-decoration: line-through;
   color: #888;
 }
+
 /* Edit Task */
 .task-item .task-input {
   display: none
 }
+
 .edit-mode .task-input {
   display: inline-block;
   width: 224px
 }
+
 .edit-mode .task-lable {
   display: none;
 }
