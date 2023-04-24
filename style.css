@@ -74,13 +74,12 @@
 .delete-btn:hover,
 .edit-btn:hover,
 #add-button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
 
-.todo__elem-name,
-.add-label {
+.todo__elem-name {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -97,8 +96,8 @@
   height: 21px;
   width: 226px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -110,15 +109,12 @@
 
 /* New Task */
 
-.add-label {
-  display: block;
-  margin: 0 0 20px;
-}
-
 #todo__add-task {
   width: 318px;
 }
-
+.todo__add-task-block{
+  padding: 20px 0;
+}
 /* Task list */
 
 .task-item {
@@ -128,9 +124,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
 }
 
-.task-item>* {
+.task-item > * {
   vertical-align: middle;
 }
 
